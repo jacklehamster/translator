@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Translator</title>
+    <meta name="google" content="notranslate"/>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="user-scalable=no,width=device-width, initial-scale=1.0,minimum-scale=1.0"/>
+    <meta name="theme-color" content="#d5f97a" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="react.min.js"></script>
+    <script src="react-dom.min.js"></script>
+    <script src="registersw.js"></script>
+</head>
+
+<body>
+    <root></root>
+    <script src="translator.js"></script>
+    <script>
+        var xmlHttp = new XMLHttpRequest()
+        xmlHttp.addEventListener('load', function(e) {
+            const responseObj = JSON.parse(xmlHttp.responseText);
+            Main.setupView(
+                document.getElementsByTagName('root')[0], responseObj);
+        });
+        xmlHttp.open('GET','translations.json',true);
+        xmlHttp.send();
+    </script>
+</body>
+

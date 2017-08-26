@@ -1,0 +1,9 @@
+.text {
+    font-family: Verdana;
+}
+
+@media screen and (max-width: 420px) {
+    body {
+        margin: 0;
+    }
+}
