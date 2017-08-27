@@ -1,4 +1,4 @@
-[
+var translations =  [
   "hello 안녕하세요 anyonghaseo",
   "how are you? 잘지냈어요 chalshinasayo",
   "delicious 맛있어요 maschisayo",
@@ -9,7 +9,7 @@
   "happy 행복해요 henbukeyo",
   "did you sleepy well? 잘 주무셨어요 anyong-hejumoshosoyo",
   "good farewell 안녕히 다녀오세요 anyong-he-tanyohoseyo",
-  "Welcome	환영합니다 (hwangyong-hamnida)",
+  "Welcome 환영합니다 (hwangyong-hamnida)",
   "Hello (on phone)	여보세요 (yeoboseyo)",
   "How are you?	어떻게 지내세요? (eotteohke jinaeseyo?)",
   "Reply to 'How are you?'	잘지내요 (jaljinaeyo)",
@@ -19,7 +19,7 @@
   "Where are you from?	어디서 오셨어요? (eodiseo osyeosseoyo)",
   "I'm from ...	저는 ... 에서 왔어요 (jeoneun ... eseo wasseuyo)",
   "Pleased to meet you	만나서 반갑습니다 (mannaseo bangapseumnida)",
-  "Good morning	안녕하십니까 (annyeong hashimnikka)"
+  "Good morning	안녕하십니까 (annyeong hashimnikka)",
   "Good afternoon 안녕하십니까 (annyeong hashimnikka)",
   "Good evening	안녕하십니까 (annyeong hashimnikka)",
   "Good night	안녕히 주무십시요 (annyeong-hi jumusipsio)",
@@ -161,5 +161,5 @@
   "One, Two, Three	Il, i, sam / ha-na, tul, set *6   일, 이, 삼 / or / 하나, 둘, 셋",
   "Four, Five, Six	Sa, o, ryuk / net, ta-sŏt, yŏ-sŏt   사, 오, 륙/ or/ 넷, 다섯, 여섯",
   "Seven, Eight, Nine, Ten	Ch'il, p'al, ku, ship / il-gop, yŏ-dŏl, a-hop, yŏl 칠, 팔, 구, 십/ or/ 일곱, 여덜, 아홉, 열",
-  ""
-]
+  "",
+  ];

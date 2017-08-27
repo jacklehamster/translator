@@ -18,15 +18,9 @@
 <body>
     <root></root>
     <script src="translator.js"></script>
+    <script src="translations.js"></script>
     <script>
-        var xmlHttp = new XMLHttpRequest()
-        xmlHttp.addEventListener('load', function(e) {
-            const responseObj = JSON.parse(xmlHttp.responseText);
-            Main.setupView(
-                document.getElementsByTagName('root')[0], responseObj);
-        });
-        xmlHttp.open('GET','translations.json',true);
-        xmlHttp.send();
+        Main.setupView(document.getElementsByTagName('root')[0], translations);
     </script>
 </body>
 
