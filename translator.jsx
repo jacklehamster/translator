@@ -121,7 +121,7 @@ class LanguageView extends React.Component {
                 <textarea style={{
                     width: '100%',
                     border: '1px solid black',
-                    height: '20vw',
+                    height: 48,
                     margin: -1,
                 }}></textarea>
                 <button style={{
@@ -148,7 +148,7 @@ class LanguageView extends React.Component {
                     border: '1px solid black',
                     margin: -1,
                     width: '100vw',
-                    height: '10vw',
+                    height: 24,
                     fontSize: 24,
                 }} onChange={this.onChange.bind(this)}/>
                 <ListView prefix={this.state.prefix} list={this.state.list}/>
