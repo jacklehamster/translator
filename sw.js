@@ -6,7 +6,7 @@ var urlsToCache = [
     'style.css',
     'translator.js',
     'registersw.js',
-    'translations.json',
+    'translations.js',
 ];
 
 self.addEventListener('install', function(event) {

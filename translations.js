@@ -161,5 +161,6 @@ var translations =  [
   "One, Two, Three	Il, i, sam / ha-na, tul, set *6   일, 이, 삼 / or / 하나, 둘, 셋",
   "Four, Five, Six	Sa, o, ryuk / net, ta-sŏt, yŏ-sŏt   사, 오, 륙/ or/ 넷, 다섯, 여섯",
   "Seven, Eight, Nine, Ten	Ch'il, p'al, ku, ship / il-gop, yŏ-dŏl, a-hop, yŏl 칠, 팔, 구, 십/ or/ 일곱, 여덜, 아홉, 열",
+    
   "",
   ];
